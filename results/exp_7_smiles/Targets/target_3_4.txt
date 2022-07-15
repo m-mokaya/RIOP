@@ -1,0 +1,4 @@
+n1ccccc1
+c1nccc(c1)-c1ccccc1
+c1(ccncc1)-c1ccc(cc1)C(=O)N
+c1ccccc1CNC(c1ccc(-c2ccncc2)cc1)=O

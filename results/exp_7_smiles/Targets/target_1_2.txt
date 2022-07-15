@@ -1,0 +1,5 @@
+c12sccc1cccc2
+c1ccc2cc(sc2c1)C(=O)N
+c12cc(C(N(CC)C)=O)sc2cccc1
+c1ccccc1CN(C)C(c1cc2c(cccc2)s1)=O
+O=C(N(C)Cc1ccccc1)c1sc2c(cc(OC)cc2)c1

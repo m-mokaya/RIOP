@@ -1,0 +1,4 @@
+C1CCOc2n1ncc2
+c1(cc2n(CCCO2)n1)C=O
+C1Cn2nc(cc2OC1)C(=O)N
+O=C(NCC)c1cc2OCCCn2n1

@@ -1,0 +1,4 @@
+n1n2c(cc1)OCCC2
+C(c1cc2n(n1)CCCO2)=O
+n12CCCOc2cc(C(N)=O)n1
+C(NC(=O)c1cc2OCCCn2n1)C

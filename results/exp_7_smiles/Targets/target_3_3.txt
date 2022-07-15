@@ -1,0 +1,4 @@
+c1cnccc1
+n1ccc(cc1)-c1ccccc1
+c1(ccc(-c2ccncc2)cc1)C(=O)N
+c1(ccc(C(=O)NCc2ccccc2)cc1)-c1ccncc1

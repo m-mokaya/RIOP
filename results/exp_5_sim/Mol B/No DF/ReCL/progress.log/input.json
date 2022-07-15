@@ -1,0 +1,18 @@
+{
+    "logging": {
+        "job_id": "demo",
+        "job_name": "Scoring mode demo",
+        "logging_path": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/6_ReCL/progress.log",
+        "recipient": "local"
+    },
+    "model_type": "default",
+    "parameters": {
+        "batch_size": 128,
+        "model_path": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/6_ReCL/Agent.ckpt",
+        "num_smiles": 500,
+        "output_smiles_path": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/6_ReCL/sampled.smi",
+        "with_likelihood": true
+    },
+    "run_type": "sampling",
+    "version": 3
+}

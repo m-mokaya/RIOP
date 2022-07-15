@@ -1,0 +1,5 @@
+c1csc2ccccc21
+c1cccc2c1sc(C(=O)N)c2
+c1c2sc(cc2ccc1)C(=O)N(CC)C
+s1c(C(N(C)Cc2ccccc2)=O)cc2ccccc12
+CN(C(=O)c1sc2ccc(OC)cc2c1)Cc1ccccc1

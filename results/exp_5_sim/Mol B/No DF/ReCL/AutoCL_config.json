@@ -1,0 +1,221 @@
+{
+    "version": 3,
+    "run_type": "curriculum_learning",
+    "logging": {
+        "recipient": "local",
+        "logging_frequency": 100,
+        "logging_path": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/6_ReCL/progress.log",
+        "result_folder": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/6_ReCL",
+        "job_name": "Automated Curriculum Learning Demo",
+        "job_id": "Demo"
+    },
+    "parameters": {
+        "prior": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/focused.agent",
+        "agent": "/data/localhost/not-backed-up/mokaya/exscientia/Reinvent/Maranga/exp_4/results/5/focused.agent",
+        "curriculum_type": "automated",
+        "curriculum_strategy": {
+            "name": "user_defined",
+            "max_num_iterations": 1500,
+            "batch_size": 128,
+            "learning_rate": 0.0001,
+            "sigma": 128,
+            "diversity_filter": {
+                "name": "NoFilter",
+                "bucket_size": 25,
+                "minscore": 0.4,
+                "minsimilarity": 0.4
+            },
+            "inception": {
+                "smiles": [],
+                "memory_size": 100,
+                "sample_size": 10
+            },
+            "curriculum_objectives": [
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 0.5,
+                                        "low": 0.4
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                },
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 0.6,
+                                        "low": 0.5
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                },
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 0.7,
+                                        "low": 0.6
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                },
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 0.8,
+                                        "low": 0.7
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                },
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 0.9,
+                                        "low": 0.8
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                },
+                {
+                    "scoring_function": {
+                        "name": "custom_sum",
+                        "parallel": false,
+                        "parameters": [
+                            {
+                                "component_type": "tanimoto_similarity",
+                                "name": "EXP 4 - Tanimoto",
+                                "weight": 1,
+                                "specific_parameters": {
+                                    "smiles": [
+                                        "c3ccc(CN2CCc1ccccc12)cc3"
+                                    ],
+                                    "transformation": {
+                                        "transformation_type": "step",
+                                        "high": 1.0,
+                                        "low": 0.9
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "score_threshold": 0.8
+                }
+            ]
+        },
+        "production_strategy": {
+            "name": "standard",
+            "retain_inception": true,
+            "n_steps": 100,
+            "batch_size": 128,
+            "learning_rate": 0.0001,
+            "sigma": 128,
+            "diversity_filter": {
+                "name": "NoFilter",
+                "bucket_size": 25,
+                "minscore": 0.4,
+                "minsimilarity": 0.4
+            },
+            "inception": {
+                "smiles": [],
+                "memory_size": 100,
+                "sample_size": 10
+            },
+            "scoring_function": {
+                "name": "custom_sum",
+                "parallel": false,
+                "parameters": [
+                    {
+                        "component_type": "tanimoto_similarity",
+                        "name": "EXP 4 - Tanimoto",
+                        "weight": 1,
+                        "specific_parameters": {
+                            "smiles": [
+                                "c3ccc(CN2CCc1ccccc12)cc3"
+                            ],
+                            "transformation": {
+                                "transformation_type": "step",
+                                "high": 1.0,
+                                "low": 0.9
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

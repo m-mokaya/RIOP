@@ -1,0 +1,5 @@
+c1cc2c(cc1)CCS2
+O=C(N)C1Cc2ccccc2S1
+c1cccc2CC(C(=O)N(Cc3ccccc3)C)Sc12
+c1ccc(cc1F)CN(C)C(C1Cc2c(S1)cccc2)=O
+Fc1cccc(CN(C(=O)C2Cc3cc(ccc3S2)OC)C)c1

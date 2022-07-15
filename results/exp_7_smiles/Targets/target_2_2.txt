@@ -1,0 +1,5 @@
+c12[nH]ccc1cccn2
+c1cc2c(nc1)[nH]cc2-c1ncncc1
+c1ccnc2c1c(c[nH]2)-c1nc(N)ncc1
+[nH]1cc(-c2nc(NC3CCCCC3)ncc2)c2c1nccc2
+NC1CCC(Nc2nc(ccn2)-c2c3c(nccc3)[nH]c2)CC1

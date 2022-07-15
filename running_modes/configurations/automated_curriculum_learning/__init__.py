@@ -1,0 +1,6 @@
+from running_modes.configurations.automated_curriculum_learning.curriculum_strategy_configuration import \
+    CurriculumStrategyConfiguration
+from running_modes.configurations.automated_curriculum_learning.inception_configuration import InceptionConfiguration
+from running_modes.configurations.automated_curriculum_learning.automated_curriculum_learning_configuration import \
+    AutomatedCLConfiguration
+from running_modes.configurations.automated_curriculum_learning.production_strategy_configuration import ProductionStrategyConfiguration

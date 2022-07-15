@@ -1,0 +1,5 @@
+c1c(cncc1)C
+c1cncc(CN)c1
+c1ccncc1CNC=O
+c1(oc(C)c(c1C(=O)NC)C)C
+c1cc(CNC(c2c(oc(c2C)C)C)=O)cnc1

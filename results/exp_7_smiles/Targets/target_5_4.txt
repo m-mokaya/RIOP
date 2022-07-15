@@ -1,0 +1,4 @@
+n1ccc2ccccc2c1
+c1c2cc(-c3ccncc3)ccc2cnc1
+c1cc2cnc(N)cc2cc1-c1ccncc1
+c1(cc2cc(NCCO)ncc2cc1)-c1ccncc1
