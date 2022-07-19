@@ -1,3 +1,27 @@
+This repository contains training data, examples and results reported in https://www.biorxiv.org/content/10.1101/2022.07.15.500218v1. 
+
+Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0235-x). For simplicity, we use a very similar pipeline, therefor you may find it helpful to consult their repository (https://github.com/MolecularAI/Reinvent).
+
+
+We have provided examples notebooks for creating the input files neccessary to reproduice our results in
+
+```
+/RIOP/notebooks
+```
+
+We also provide our datasets for specific experiments where the full Chembl dataset is not used, these are available in 
+
+'''
+/RIOP/data
+'''
+
+Finally, we provide example generated libraries of molecules for each of our experiments in 
+
+'''
+/RIOP/results
+'''
+
+
 Installation
 -------------
 
