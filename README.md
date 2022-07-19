@@ -1,3 +1,7 @@
+
+Introduction
+-------------
+
 This repository contains training data, examples and results reported in https://www.biorxiv.org/content/10.1101/2022.07.15.500218v1. 
 
 Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0235-x). For simplicity, we use a very similar pipeline, therefor you may find it helpful to consult their repository (https://github.com/MolecularAI/Reinvent).
@@ -5,16 +9,35 @@ Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.b
 
 We have provided examples notebooks for creating the input files neccessary to reproduice our results in
 
-/RIOP/notebooks
+```
+./notebooks
+```
+
 
 We also provide our datasets for specific experiments where the full Chembl dataset is not used, these are available in 
 
-/RIOP/data
+```
+./data
+```
 
 
 Finally, we provide example generated libraries of molecules for each of our experiments in 
 
-/RIOP/results
+```
+./results
+```
+
+Below is a breakdown of main experiment reported in our work with their experiment index to reference datasets and results. 
+
+| Experiment    | Description |
+| -----------   | ----------- |
+| 1             | Single property shift     |
+| 2             | %-representation       |
+| 3             | TPSA shift with rIOP       |
+| 4             | QED optimisation with rIOP       |
+| 5             | Generating simple and complex substructures      |
+| 6             | Effects of SMILES on model performance       |
+
 
 
 Installation
