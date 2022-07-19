@@ -5,21 +5,16 @@ Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.b
 
 We have provided examples notebooks for creating the input files neccessary to reproduice our results in
 
-```
 /RIOP/notebooks
-```
 
 We also provide our datasets for specific experiments where the full Chembl dataset is not used, these are available in 
 
-'''
 /RIOP/data
-'''
+
 
 Finally, we provide example generated libraries of molecules for each of our experiments in 
 
-'''
 /RIOP/results
-'''
 
 
 Installation
