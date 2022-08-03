@@ -4,7 +4,7 @@ Introduction
 
 This repository contains training data, examples and results reported in https://www.biorxiv.org/content/10.1101/2022.07.15.500218v1. 
 
-Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0235-x). For simplicity, we use a very similar pipeline, therefor you may find it helpful to consult their repository (https://github.com/MolecularAI/Reinvent).
+Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0235-x). For simplicity, we use a very similar pipeline, therefore you may find it helpful to consult their repository (https://github.com/MolecularAI/Reinvent).
 
 
 We have provided examples notebooks for creating the input files neccessary to reproduice our results in
