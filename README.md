@@ -7,7 +7,7 @@ This repository contains training data, examples and results reported in https:/
 Our work is built on previously publised work (REINVENT 3.0 - https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0235-x). For simplicity, we use a very similar pipeline, therefore you may find it helpful to consult their repository (https://github.com/MolecularAI/Reinvent).
 
 
-We have provided examples notebooks for creating the input files neccessary to reproduice our results in
+We have provided examples notebooks for creating the input files neccessary to reproduce our results in
 
 ```
 ./notebooks
@@ -54,6 +54,7 @@ Installation
         $ conda activate reinvent.v3.0
 
 5. Use the tool.
+Installation is expected to take a few minutes. 
 
      
 System Requirements
@@ -61,7 +62,7 @@ System Requirements
 
 * Python 3.7
 * Cuda-enabled GPU
-* `REINVENT` has been tested on Linux
+* `REINVENT` and `RIOP` have been tested on Linux
 
 
 Tutorials / `jupyter` notebooks
