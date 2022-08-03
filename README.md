@@ -38,7 +38,7 @@ Below is a breakdown of main experiment reported in our work with their experime
 | 5             | Generating simple and complex substructures      |
 | 6             | Effects of SMILES on model performance       |
 
-*Instructions, examples and tutorials for DrIOP are available at 
+*Instructions, examples and tutorials for DrIOP are available at https://github.com/m-mokaya/RIOP_DrIOP
 
 Installation
 -------------
