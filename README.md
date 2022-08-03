@@ -34,11 +34,11 @@ Below is a breakdown of main experiment reported in our work with their experime
 | 1             | Single property shift     |
 | 2             | %-representation       |
 | 3             | TPSA shift with rIOP       |
-| 4             | QED optimisation with rIOP       |
+| 4             | QED optimisation with rIOP *      |
 | 5             | Generating simple and complex substructures      |
 | 6             | Effects of SMILES on model performance       |
 
-
+*Instructions, examples and tutorials for DrIOP are available at 
 
 Installation
 -------------
